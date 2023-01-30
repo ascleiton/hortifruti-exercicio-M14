@@ -79,4 +79,9 @@ header {
     .tab-content .tab-pane img {
         max-height: 300px;
     }
+
+    #receitas img {
+        max-height: 250px;
+        height: 100%;
+    }
 }
