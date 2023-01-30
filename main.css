@@ -1,0 +1,78 @@
+body {
+    font-family: 'Roboto', cursive;
+}
+
+header {
+    background-color: rgb(4, 124, 24);
+}
+
+.color-section {
+    background-color: rgba(38, 204, 60, 0.116);
+}
+
+.navbar-brand{
+    font-family:'Caveat', cursive;
+}
+
+.navbar-brand,.navbar-brand:hover {
+    color: #fff;
+}
+
+.color-base,
+.nav-bancada .nav-link {
+    color: rgb(4, 124, 24);
+}
+
+.nav .nav-item .active {
+    background-color: #fff;
+    color: rgb(4, 124, 24);
+}
+
+.nav .nav-item a {
+    color: #fff;
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 525px;
+    margin-bottom: 16px;
+}
+
+.nav-bancada  .nav-link.active {
+    background-color: rgb(4, 124, 24);
+    color: #fff;
+}
+
+.tab-content .tab-pane img {
+    max-height: 150px;
+}
+
+#receitas img {
+    max-height: 200px;
+}
+
+.social-links {
+    list-style: none;
+}
+
+.color-joinha {
+    color: rgb(255, 231, 17);
+}
+
+.color-facebook {
+    color: rgb(43, 24, 207);
+}
+
+.color-instagram {
+    color: rgb(240, 109, 2);
+}
+
+.color-whatsapp {
+    color: rgb(5, 155, 25);
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        max-height: 250px;
+    }
+}
